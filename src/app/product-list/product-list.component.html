@@ -1,0 +1,17 @@
+<div class="container">
+    <h1 class="text-center mt-5">Tous Les Produits</h1>
+    <div class="row mt-5">
+        <div class="col-3" *ngFor="let product of products">
+            <div class="card p-1">
+                <div class="card-image">
+                    <img src="../../71qccaRKQVL.jpg">
+                </div>
+                <div class="card-body">
+                <h2>{{product.nom}}</h2>
+                <p>{{product.description}}</p>
+                <h2>{{product.price}}$</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
